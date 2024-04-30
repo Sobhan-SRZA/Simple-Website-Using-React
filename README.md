@@ -45,7 +45,7 @@ To use this project, follow these steps:
 
 ## Support and Feedback
 
-If you have any questions, suggestions, or feedback, feel free to [open an issue](https://github.com/Sobhan-SRZA/Machine-Learning-Color-Contrast-Picker/issues).
+If you have any questions, suggestions, or feedback, feel free to [open an issue](https://github.com/Sobhan-SRZA/Simple-Website-Using-React/issues).
 
 Or you can create a ticket in our [discord server](https://discord.gg/7nV2MMjyK8).
 
@@ -53,7 +53,7 @@ Or you can create a ticket in our [discord server](https://discord.gg/7nV2MMjyK8
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/Sobhan-SRZA/Machine-Learning-Color-Contrast-Picker/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/Sobhan-SRZA/Simple-Website-Using-React/blob/main/LICENSE).
 
 ---
 
