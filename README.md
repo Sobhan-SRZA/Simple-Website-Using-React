@@ -36,7 +36,7 @@ To use this project, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Sobhan-SRZA/Machine-Learning-Color-Contrast-Picker.git
+   git clone https://github.com/Sobhan-SRZA/Simple-Website-Using-React.git
    ```
 
 2. Open the `index.html` file in your web browser or use vscode live server.
