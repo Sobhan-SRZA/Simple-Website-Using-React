@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(0deg,
+            rgb(132, 96, 110) 30.8%,
+            rgb(107, 53, 136) 90%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+#place h3 {
+    color: #d0e7ff;
+    font-size: 30px;
+    padding: 10px, 10px;
+    margin-bottom: 120px;
+    margin-left: -200px;
+}
+
+#place .profile {
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: -150px;
+}
+
+.date {
+    position: relative;
+    display: flex;
+    color: #fca8ff;
+    margin-left: -120px;    
+    margin-top: -100px;
+}
+
+.time {
+    color: #fca8ff;
+    margin-left: -70px;
+}
+
+.btnHello {
+    color: #696969;
+    background-color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+    padding: 10px 10px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 300px;  
+}
+
+.btnHello:hover {
+    color: #000000;
+    background-color: #fca8ff;
+    border-color: #fca8ff;
+    box-shadow: 0 20px 20px 0 rgba(187, 73, 168, 0.6);
+}
+
+.btnHello:active {
+    color: #000000;
+    background-color: #fdcdff;
+    border-color: #fdcdff;
+    box-shadow: 0 20px 20px 0 rgba(255, 144, 236, 0.6);
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer a:hover {
+    color: azure;
+}
+
+/**
+ * @copyright
+ * Coded by Sobhan-SRZA (mr.sinre) | https://github.com/Sobhan-SRZA
+ * @copyright
+ * Work for Persian Caesar | https://dsc.gg/persian-caesar
+ * @copyright
+ * Please Mention Us "Persian Caesar", When Have Problem With Using This Code!
+ * @copyright
+ */

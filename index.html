@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My First React</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div id="place"></div>
+    <footer>
+        <a href="https://github.com/Sobhan-SRZA" target="_blank">© Build by Sobhan-SRZA</a>
+    </footer>
+    <script type="text/babel">
+        const Output = () => {
+            let title = "Welcome to my first react.js website";
+            let profile = {
+                name: "Sobhan",
+                age: "18",
+                hobbit: "coding"
+            };
+            let time = new Date();
+            let btnHello = () => {
+                alert("This is the magic :)")
+            };
+            return (
+                <div>
+                    <h3>{title}</h3>
+                    <div className="date">
+                        <p>{time.getFullYear()}/{time.getMonth()}/{time.getDay()}</p>
+                    </div>
+                    <div className="profile">
+                        <p>Hello everyone, My name is {profile.name} and I'm {profile.age}</p>
+                        <p>I'm so happy about creating this website and it's help me to learn more.</p>
+                        <p>I don't have much friends so {profile.hobbit} is my best hobbit in my life.</p>
+                    </div>
+                    <div className="time">
+                        <p>{time.getHours()}:{time.getMinutes()}:{time.getSeconds()}</p>
+                    </div>
+                    <button className="btnHello" onClick={btnHello}>Click me to see a magic</button>
+                </div>
+            );
+        };
+
+        // React version 17
+        // ReactDOM.render(<Output tab="home" />, document.getElementById("place"));
+
+        // React version 18
+        const root = ReactDOM.createRoot(document.getElementById("place"));
+        root.render(<Output tab="home" />);
+    </script>
+</body>
+
+</html>
+<!-- 
+ * @copyright
+ * Coded by Sobhan-SRZA (mr.sinre) | https://github.com/Sobhan-SRZA
+ * @copyright
+ * Work for Persian Caesar | https://dsc.gg/persian-caesar
+ * @copyright
+ * Please Mention Us "Persian Caesar", When Have Problem With Using This Code!
+ * @copyright 
+-->
